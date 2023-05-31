@@ -11,6 +11,10 @@ struct Product
 
 vector<Product> items;
 
+void productName(string usersPick) {
+
+}
+
 int main()
 {
     string usersPick;
@@ -20,5 +24,8 @@ int main()
 
     if (usersPick == "exit") {
         exit(0);
+    }
+    else {
+        productName(usersPick);
     }
 }
