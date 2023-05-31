@@ -14,7 +14,7 @@ vector<Product> items;
 int main()
 {
     string usersPick;
-    cout << "Enter the product name (or 'exit' to finish)";
+    cout << "Enter the product name (or 'exit' to finish) ";
 	cin >> usersPick;
 
 
