@@ -17,10 +17,8 @@ int main()
     cout << "Enter the product name (or 'exit' to finish)";
 	cin >> usersPick;
 
-	switch (usersPick)
-	{
-	case 'exit':
-	default:
-		break;
-	}
+
+    if (usersPick == "exit") {
+        exit(0);
+    }
 }

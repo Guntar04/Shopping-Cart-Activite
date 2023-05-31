@@ -1,0 +1,7 @@
+﻿  Shopping Cart.cpp
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(20,20): error C2450: a switch expression of type 'std::string' is not valid
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(20,10): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(21,13): error C2440: 'type cast': cannot convert from 'const char [5]' to 'int'
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(21,7): message : There is no context in which this conversion is possible
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(21,2): error C2046: illegal case
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(24,2): warning C4065: switch statement contains 'default' but no 'case' labels
