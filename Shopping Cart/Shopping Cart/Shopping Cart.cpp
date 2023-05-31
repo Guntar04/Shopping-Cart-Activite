@@ -17,13 +17,22 @@ void productBrand(string usersPick) {
     brand.push_back(usersPick);
 }
 
-void productPrice(string usersPick) {
+void productPrice() {
+    int userPick;
     cout << "Enter the product price: ";
-    cin >> usersPick;
-    brand.push_back(usersPick);
+    cin >> userPick;
+    price.push_back(userPick);
     cout << "Added " << name[i] << " to the shopping cart.\n\n";
     i++;
     return;
+}
+
+void displayCart() {
+    for (int s = 0; s < sizeof(name[s]); s++) {
+        cout << "Product Name: "<< name[s] <<"\n";
+        cout << "Product Brand: " << brand[s] << "\n";
+        cout << "Product Price: " << price[s] << "\n\n";
+    }
 }
 
 int main()
@@ -31,15 +40,18 @@ int main()
     string usersPick;
     while (usersPick != "exit")
     {
-        cout << "Enter the product name (or 'exit' to finish): ";
+        cout << "Enter the product name ('display to show the cart or 'exit' to finish): ";
         cin >> usersPick;
         if (usersPick == "exit") {
             exit(0);
         }
+        else if(usersPick == "display"){
+            displayCart();
+        }
         else {
             productName(usersPick);
             productBrand(usersPick);
-            productPrice(usersPick);
+            productPrice();
         }
     }
 }
