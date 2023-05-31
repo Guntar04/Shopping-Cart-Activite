@@ -18,14 +18,15 @@ void productName(string usersPick) {
 int main()
 {
     string usersPick;
-    cout << "Enter the product name (or 'exit' to finish) ";
-	cin >> usersPick;
-
-
-    if (usersPick == "exit") {
-        exit(0);
-    }
-    else {
-        productName(usersPick);
+    while (usersPick != "exit")
+    {
+        cout << "Enter the product name (or 'exit' to finish) ";
+        cin >> usersPick;
+        if (usersPick == "exit") {
+            exit(0);
+        }
+        else {
+            productName(usersPick);
+        }
     }
 }
