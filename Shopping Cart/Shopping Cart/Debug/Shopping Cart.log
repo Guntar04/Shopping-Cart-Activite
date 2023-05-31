@@ -1,2 +1,3 @@
 ﻿  Shopping Cart.cpp
-D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(26,9): error C2181: illegal else without matching if
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(12,5): error C3861: 'productBrand': identifier not found
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(19,5): error C3861: 'productPrice': identifier not found
