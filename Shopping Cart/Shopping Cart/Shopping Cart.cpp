@@ -9,21 +9,19 @@ int i = 0;
 
 void productName(string usersPick) {
     name.push_back(usersPick);
-    productBrand(usersPick);
 }
 
 void productBrand(string usersPick) {
     cout << "Enter the product brand: ";
     cin >> usersPick;
     brand.push_back(usersPick);
-    productPrice(usersPick);
 }
 
 void productPrice(string usersPick) {
     cout << "Enter the product price: ";
     cin >> usersPick;
     brand.push_back(usersPick);
-    cout << "Added" << name[i] << " to the shopping cart.\n\n";
+    cout << "Added " << name[i] << " to the shopping cart.\n\n";
     i++;
     return;
 }
@@ -40,6 +38,8 @@ int main()
         }
         else {
             productName(usersPick);
+            productBrand(usersPick);
+            productPrice(usersPick);
         }
     }
 }

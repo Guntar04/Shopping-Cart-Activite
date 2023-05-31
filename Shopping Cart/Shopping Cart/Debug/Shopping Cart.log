@@ -1,3 +1,2 @@
 ﻿  Shopping Cart.cpp
-D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(12,5): error C3861: 'productBrand': identifier not found
-D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(19,5): error C3861: 'productPrice': identifier not found
+  Shopping Cart.vcxproj -> D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Debug\Shopping Cart.exe
