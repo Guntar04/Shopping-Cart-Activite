@@ -28,7 +28,12 @@ void productPrice() {
 }
 
 void displayCart() {
-    for (int s = 0; s < sizeof(name[s]); s++) {
+    if (size(name) == 0)
+    {
+        cout << "\nThere are no items in the cart\n";
+        return;
+    }
+    for (int s = 0; s < size(name); s++) {
         cout << "Product Name: "<< name[s] <<"\n";
         cout << "Product Brand: " << brand[s] << "\n";
         cout << "Product Price: " << price[s] << "\n\n";
@@ -40,7 +45,7 @@ int main()
     string usersPick;
     while (usersPick != "exit")
     {
-        cout << "Enter the product name ('display to show the cart or 'exit' to finish): ";
+        cout << "Enter the product name ('display' to show the cart or 'exit' to finish): ";
         cin >> usersPick;
         if (usersPick == "exit") {
             exit(0);
