@@ -1,3 +1,3 @@
 ﻿  Shopping Cart.cpp
-C:\Users\270137506\OneDrive - UP Education\Documents\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(36,23): warning C4018: '<': signed/unsigned mismatch
-  Shopping Cart.vcxproj -> C:\Users\270137506\OneDrive - UP Education\Documents\GitHub\Shopping-Cart-Activite\Shopping Cart\Debug\Shopping Cart.exe
+D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Shopping Cart\Shopping Cart.cpp(35,23): warning C4018: '<': signed/unsigned mismatch
+  Shopping Cart.vcxproj -> D:\GitHub\Shopping-Cart-Activite\Shopping Cart\Debug\Shopping Cart.exe

@@ -28,13 +28,12 @@ void productPrice() {
 }
 
 void displayCart() {
-    if (size(name) == 0)
-    {
-        cout << "\nThere are no items in the cart\n";
+    if (size(name) == 0){
+        cout << "\nThere are no items in the cart\n\n";
         return;
     }
     for (int s = 0; s < size(name); s++) {
-        cout << "Product Name: "<< name[s] <<"\n";
+        cout << "\nProduct Name: "<< name[s] <<"\n";
         cout << "Product Brand: " << brand[s] << "\n";
         cout << "Product Price: " << price[s] << "\n\n";
     }
